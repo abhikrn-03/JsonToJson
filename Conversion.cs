@@ -1,7 +1,17 @@
 ﻿using System.Text.Json;
 
-namespace JsonToJsonV102
-{
+    public class InputData
+    {
+        public string? Message { get; set; }
+        public string? Name { get; set; }
+    }
+
+    public class OutputData
+    {
+        public string? NewMessage { get; set; }
+        public string? NewName { get; set; }
+    }
+
     public class Conversion
     {
         public void ToJson(string inputPath, string outputPath)
@@ -39,4 +49,3 @@ namespace JsonToJsonV102
             File.WriteAllText(outputPath, outJson);
         }
     }
-}

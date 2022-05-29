@@ -4,13 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>MSSWEI.NugetTest.JsonToJsonV102</PackageId>
+    <PackageId>MSSWEI.NugetTest.JsonToJsonV103</PackageId>
     <Authors>Abhik Sen</Authors>
     <Company>MS</Company>
     <Description>Converts Json to Json after changing case.</Description>
-    <RepositoryUrl>https://github.com/abhikrn-03/JsonToJsonV101</RepositoryUrl>
+    <RepositoryUrl>https://github.com/abhikrn-03/JsonToJsonV102</RepositoryUrl>
     <PackageTags>Test Json Conversion</PackageTags>
     <PackageReleaseNotes>A test package to convert Json to Json with some hardcoded changes.</PackageReleaseNotes>
+    <Product>JsonToJsonV103</Product>
   </PropertyGroup>
 
 </Project>
