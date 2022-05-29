@@ -2,7 +2,7 @@
 
 namespace JsonToJsonV102
 {
-    public class Convert
+    public class Conversion
     {
         public void ToJson(string inputPath, string outputPath)
         {
